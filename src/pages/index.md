@@ -7,6 +7,11 @@ hide_table_of_contents: true
 ## What is JiaoziFS?
 JiaoziFS is an industry-leading **Data-Centric Version Control** File System, helps ensure Responsible AI Engineering by improving **Data Versioning**, **Provenance**, and **Reproducibility**.
 
+Note:
+* The name Jiaozi pays tribute to the world's earliest paper money: Song Dynasty Jiaozi.
+* At the same time, JiaoziFS is Yet another implementation of IPFS (InterPlanetary File System) as JiaoziFS will be compatible with the underlying protocol of IPFS.
+
+
 ## A Universe of Uses of JiaoziFS
 JiaoziFS's versatility shines across different industries – making it the multi-purpose tool for the **data centric applications and teams**.
 
@@ -25,45 +30,26 @@ In production systems with machine learning components, updates and experiments 
 ## Spec
 [JiaoziFS Specification](https://github.com/jiaozifs/Spec)
 
-## Command line
+## Quick Start
 
-
+build
 ```bash
-jzfs -h
-A cli tool to generate api, gRPC, model code
+git clone https://github.com/jiaozifs/jiaozifs.git
 
-GitHub: https://github.com/zeromicro/go-zero
-Site:   https://go-zero.dev
+make build
+```
 
-Usage:
-  goctl [command]
+init and running
+```bash
+./jzfs init  --db postgres://li:li123@localhost:5432/jiaozifs?sslmode=disable
 
-Available Commands:
-  api               Generate api related files
-  bug               Report a bug
-  completion        Generate the autocompletion script for the specified shell
-  docker            Generate Dockerfile
-  env               Check or edit goctl environment
-  help              Help about any command
-  kube              Generate kubernetes files
-  migrate           Migrate from tal-tech to zeromicro
-  model             Generate model code
-  quickstart        quickly start a project
-  rpc               Generate rpc code
-  template          Template operation
-  upgrade           Upgrade goctl to latest version
-
-Flags:
-  -h, --help      help for goctl
-  -v, --version   version for goctl
-
-
-Use "goctl [command] --help" for more information about a command.
+./jzfs daemon
 ```
 ## UI
 
 
+## Contributors
+
+
 ## Users
 
-
-## ...
