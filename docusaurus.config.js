@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'JiaoziFS',
-  tagline: 'JiaoziFS are cool',
+  title: 'Data versioning at scale',
+  tagline: 'Data Space, Data Hub, Data Collaboration',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'gitdata', // Usually your GitHub org/user name.
-  projectName: 'jiaozifs', // Usually your repo name.
+  organizationName: 'GitData', // Usually your GitHub org/user name.
+  projectName: 'Portal JiaoziFS', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -74,7 +74,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/jiaozifs/docs',
+            href: 'https://github.com/jiaozifs/jiaozifs.com',
             label: 'GitHub',
             position: 'right',
           },
