@@ -9,7 +9,7 @@ JiaoziFS is an industry-leading **Data-Centric Version Control** File System, he
 
 Note:
 * The name Jiaozi pays tribute to the world's earliest paper money: Song Dynasty Jiaozi.
-* JiaoziFS is Yet another implementation of [IPFS (InterPlanetary File System)](https://ipfs.tech/) as JiaoziFS will be compatible with the underlying protocol of IPFS.
+* JiaoziFS is yet another implementation of [IPFS (InterPlanetary File System)](https://ipfs.tech/) as JiaoziFS will be compatible with the underlying protocol of IPFS.
 * As a filesystem of data versioning at scale, although JiaoziFS is built for machine learning, It has a wide range of use scenarios (refer A Universe of Uses) and can be seamlessly integrated into all your data stack.
 
 ## A Universe of Uses
@@ -54,11 +54,14 @@ After following the above steps, you should be able to see an executable file na
 ```
 
 ## UI
+[Try without installing](https://ui.jiaozifs.com)
 
 
 ## Contributors
 <a href="https://github.com/hunjixin" target="_blank"><img src="https://avatars.githubusercontent.com/u/41407352?v=4" width="5%" height="5%"/></a> <a href="https://github.com/Brownjy" target="_blank"><img src="https://avatars.githubusercontent.com/u/54040689?v=4" width="5%" height="5%"/></a> <a href="https://github.com/TsumikiQAQ" target="_blank"><img src="https://avatars.githubusercontent.com/u/116857998?v=4" width="5%" height="5%"/></a> <a href="https://github.com/taoshengshi" target="_blank"><img src="https://avatars.githubusercontent.com/u/33315004?v=4" width="5%" height="5%"/></a>
-
+  
+  
+  
 
 ## Users
 Join the JiaoziFS community to discuss open problems, share ideas, and get help from the community.
