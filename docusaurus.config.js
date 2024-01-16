@@ -41,7 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          //routeBasePath: '/', // Serve the docs at the site's root
+          //routeBasePath: '/', // Serve the jiaozifs.com at the site's root
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/jiaozifs-card.png',
       navbar: {
         title: 'JiaoziFS',
         logo: {
