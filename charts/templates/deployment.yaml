@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jiaozifs-com-deployment
+  labels:
+    apptype: jiaozifs-com
+spec:
+  replicas: {{ .Values.replicas}}
+  selector:
+    matchLabels:
+      app: jiaozifs-com
+  template:
+    metadata:
+      labels:
+        app: jiaozifs-com
+        apptype: jiaozifs-com
+    spec:
+      containers:
+        - name: jiaozifs-com
+          image: gitdatateam/jiaozifs-com:latest
+          imagePullPolicy: Always
+          args: [{{ .Values.api_url }}]
+          ports:
+            - containerPort: 3000
