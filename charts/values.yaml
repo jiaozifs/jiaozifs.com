@@ -3,4 +3,3 @@
 # See README.md for details.
 replicas: 1
 ingress_name: nginx
-api_url: http://jiaozifs.com/

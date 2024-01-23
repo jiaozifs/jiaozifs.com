@@ -19,6 +19,5 @@ spec:
         - name: jiaozifs-com
           image: gitdatateam/jiaozifs-com:latest
           imagePullPolicy: Always
-          args: [{{ .Values.api_url }}]
           ports:
             - containerPort: 3000
