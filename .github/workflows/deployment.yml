@@ -48,6 +48,6 @@ jobs:
       - name: Deploy
         uses: WyriHaximus/github-action-helm3@v3
         with:
-          exec: helm upgrade jiaozifs-com --install  ./charts --wait --atomic --timeout 2m --namespace jiaozifs --set-string tag=${{ steps.version.outputs.version }}
+          exec: helm upgrade jiaozifs-com --install  ./charts --wait --atomic --timeout 2m --namespace website --set-string tag=${{ steps.version.outputs.version }}
           kubeconfig: ${{ secrets.KUBECONTENT }}
           overrule_existing_kubeconfig: "true"
