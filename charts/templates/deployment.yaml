@@ -4,6 +4,7 @@ metadata:
   name: jiaozifs-com-deployment
   labels:
     apptype: jiaozifs-com
+    date: "{{ now | unixEpoch }}"
 spec:
   replicas: {{ .Values.replicas}}
   selector:
