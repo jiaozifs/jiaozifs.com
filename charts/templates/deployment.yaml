@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: jiaozifs-com
-          image: gitdatateam/jiaozifs-com:latest
+          image: gitdatateam/jzfs:{{ .Values.tag }}
           imagePullPolicy: Always
           ports:
             - containerPort: 80

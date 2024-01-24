@@ -3,3 +3,4 @@
 # See README.md for details.
 replicas: 1
 ingress_name: nginx
+tag: latest
