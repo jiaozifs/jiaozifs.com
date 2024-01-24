@@ -42,12 +42,12 @@ jobs:
       - name: Build and push
         run: |
           docker login -u  ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
-          docker build -t gitdatateam/jiaozifs-com:latest . 
-          docker push gitdatateam/jiaozifs-com:latest
+          docker build -t gitdatateam/jiaozifs-com:${{ steps.version.outputs.version }} . 
+          docker push gitdatateam/jiaozifs-com:${{ steps.version.outputs.version }}
         
       - name: Deploy
         uses: WyriHaximus/github-action-helm3@v3
         with:
-          exec: helm upgrade jiaozifs-com --install  ./charts --wait --atomic --timeout 2m --namespace website --set-string tag=latest
+          exec: helm upgrade jiaozifs-com --install ./charts/ --namespace website --set tag=latest
           kubeconfig: ${{ secrets.KUBECONTENT }}
           overrule_existing_kubeconfig: "true"
