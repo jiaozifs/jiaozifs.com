@@ -53,7 +53,7 @@ After following the above steps, you should be able to see an executable file na
 ./jzfs daemon
 ```
 
-## UI
+## Cloud
 [Try without installing](https://ui.jiaozifs.com)
 
 ## Contributors
