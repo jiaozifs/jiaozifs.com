@@ -1,0 +1,12 @@
+apiVersion: v2
+name: jiaozifs-com
+description: Install jiaozifs.com to provide jiaozifs official web page.
+version: 1.0.0
+kubeVersion: < 1.28.0-0
+home: https://jiaozifs.com/
+keywords:
+  - jiaozifs-com
+sources:
+  - https://github.com/jiaozifs/jiaozifs.com
+maintainers:
+  - name: jiaozifs team
