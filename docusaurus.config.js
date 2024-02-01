@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Data versioning at scale',
+  title: 'Data Versioning at Scale',
   tagline: 'Data Space, Data Hub, Data Collaboration',
   favicon: 'img/favicon.ico',
 
