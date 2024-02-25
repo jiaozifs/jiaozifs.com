@@ -26,7 +26,7 @@ Copy the `docs/intro.md` file to the `i18n/fr` folder:
 ```bash
 mkdir -p i18n/fr/docusaurus-plugin-content-jiaozifs.com/current/
 
-cp jiaozifs.com/intro.md i18n/fr/docusaurus-plugin-content-jiaozifs.com/current/intro.md
+cp jiaozifs.com/Introduction.md i18n/fr/docusaurus-plugin-content-jiaozifs.com/current/Introduction.md
 ```
 
 Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
