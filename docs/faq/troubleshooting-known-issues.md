@@ -16,7 +16,7 @@ cat ~/.jiaozifs/config.toml
 vim ~/.jiaozifs/config.toml
 ```
 
-### After running Jiaozifs, where is the data stored?
+### After running JiaoziFS, where is the data stored?
 
 + Personal information data: In the `PostgreSQL database`.
 + Uploaded data: Depending on the upload method, the data is stored in different locations. By default, uploads are stored locally, and the data is saved in `~/.jiaozifs/blockstore`.
