@@ -3,49 +3,28 @@ slug: /
 sidebar_position: 1
 ---
 
-This page will be the home page when users visit https://example.com/.
+# Introduction
 
+JiaoziFS is an industry-leading **Data-Centric Version Control** File System, helps ensure Responsible AI Engineering by improving **Data Versioning**, **Provenance**, and **Reproducibility**.
 
-# Tutorial Intro
+Note:
 
-Let's discover **Docusaurus in less than 5 minutes**.
+- The name Jiaozi pays tribute to the world's earliest paper money: Song Dynasty Jiaozi.
+- JiaoziFS is yet another implementation of [IPFS (InterPlanetary File System)](https://ipfs.tech/) as JiaoziFS will be compatible with the [implementation requirements](https://specs.ipfs.tech/architecture/principles/#ipfs-implementation-requirements) of IPFS.
+- As a filesystem of data versioning at scale, although JiaoziFS is built for machine learning, It has a wide range of use scenarios (refer A Universe of Uses) and can be seamlessly integrated into all your data stack.
 
-## Getting Started
+## Why Jiaozifs?
 
-Get started by **creating a new site**.
+In production systems with machine learning components, updates and experiments are frequent. New updates to models(data products) may be released every day or every few minutes, and different users may see the results of different models as part of A/B experiments or canary releases.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **Version Everything**: Data scientists are often criticized for being less disciplined with versioning their experiments(versioning of data, pipeline, code, and models), especially when using computational notebooks.
+- **Track Data Provenance**: This applies to all processing steps in an AI/ML pipeline, including data collection/acquisition, data merging, data cleaning, feature extraction, learning, or deployment.
+- **Reproducibility**: A final question of AI/ML that is often relevant for debugging, audits, and also science more broadly is to what degree data, models, and decisions can be reproduced.
 
-### What you'll need
+## How does it work?
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+The working principle of **JiaoziFS** is based on the concept of **IPFS (InterPlanetary File System)**, utilizing **distributed data storage** and **version control mechanisms** to ensure **data traceability** and **reproducibility**. When using **JiaoziFS**, data is segmented into small chunks and stored across multiple nodes in a distributed network. Each data chunk is assigned a unique hash value for identification and retrieval. Additionally, **JiaoziFS** records **version information** for each data chunk, allowing users to track the history of data changes.
 
-## Generate a new site
+When accessing specific versions of data, **JiaoziFS** retrieves the corresponding data chunks from the distributed network based on version information and assembles them into complete files or datasets. This distributed storage and version control mechanism not only ensures data security and reliability but also provides efficient means of data access and management.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website1
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+In summary, **JiaoziFS** draws upon the core ideas of **IPFS** and implements customized functionalities for **data version control**, making it a powerful **data management tool** suitable for various data processing and analysis needs across different scenarios.
