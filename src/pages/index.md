@@ -22,10 +22,11 @@ In production systems with machine learning components, updates and experiments 
 ## A Universe of Uses
 JiaoziFS's versatility shines across different industries – making it the multi-purpose tool for the **data centric applications and teams**.
 
-* **Enterprise DataHub & Data Collaboration**: Share & collaborate easily: Instantly share insights and co-edit with your team. JiaoziFS enable Collaborative Datasets Version Management at Scale.
+* **Enterprise DataHub & Data Collaboration**: Depending on your operating scale, you may even be managing multiple team members, who may be spread across different locations. JiaoziFS enable Collaborative Datasets Version Management at Scale,Share & collaborate easily: Instantly share insights and co-edit with your team.
 * **DataOps**: Augmenting Enterprise Data Development and Operations,JiaoziFS ensures Responsible DataOps/AIOps/MLOps by improving Data Versioning, Provenance, and Reproducibility.
-* **Data Mesh**: Versioning data products in a maturing Data Mesh environment via standard processes, data consumers can be informed about both breaking and non-breaking changes in a data product, as well as retirement of data products. .
+* **Data Mesh**: Versioning data products in a maturing Data Mesh environment via standard processes, data consumers can be informed about both breaking and non-breaking changes in a data product, as well as retirement of data products.
 * **Data Products**: JiaoziFS makes a fusion of data science and product development and allows data to be containerized into shareable, tradeable, and trackable assets(data products or data NFTs).
+* **Digital Twins for Manufacturing**: Developing digital twins for manufacturing involves managing tons of large files and multiple iterations of a project. All of the data collected and created in the digital twin process (and there is a lot of it) needs to be managed carefully. JiaoziFS allows you to manage changes to files over time and store these modifications in a database.
 
 ## Spec
 [JiaoziFS Specification](https://github.com/jiaozifs/Spec)
