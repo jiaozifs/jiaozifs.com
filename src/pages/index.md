@@ -22,10 +22,10 @@ In production systems with machine learning components, updates and experiments 
 ## A Universe of Uses
 JiaoziFS's versatility shines across different industries – making it the multi-purpose tool for the **data centric applications and teams**.
 
-* **DataHub & Data Collaboration**: JiaoziFS enable Collaborative Data Science & Dataset Version Management at Scale.
-* **Data Engineering & Data Pipelines**: JiaoziFS ensures Responsible DataOps/AIOps/MLOps Engineering by improving Data Versioning, Provenance, and Reproducibility.
-* **FAIR DataSpace**: JiaoziFS is built for data which meet principles of findability, accessibility, interoperability, and reusability (FAIR).
-* **Data NFT and Data Containerization**: JiaoziFS allows data to be containerized into shareable, tradeable, and trackable assets(data products).
+* **Enterprise DataHub & Data Collaboration**: Share & collaborate easily: Instantly share insights and co-edit with your team. JiaoziFS enable Collaborative Datasets Version Management at Scale.
+* **DataOps**: Augmenting Enterprise Data Development and Operations,JiaoziFS ensures Responsible DataOps/AIOps/MLOps by improving Data Versioning, Provenance, and Reproducibility.
+* **Data Mesh**: Versioning data products in a maturing Data Mesh environment via standard processes, data consumers can be informed about both breaking and non-breaking changes in a data product, as well as retirement of data products. .
+* **Data Products**: JiaoziFS makes a fusion of data science and product development and allows data to be containerized into shareable, tradeable, and trackable assets(data products or data NFTs).
 
 ## Spec
 [JiaoziFS Specification](https://github.com/jiaozifs/Spec)
