@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'GitData', // Usually your GitHub org/user name.
+  organizationName: 'GitData.AI', // Usually your GitHub org/user name.
   projectName: 'Portal JiaoziFS', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -82,7 +82,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} JiaoziFS, Inc. Built with Love.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GitData.AI, Inc. Built with Love.`,
       },
       prism: {
         theme: prismThemes.github,
